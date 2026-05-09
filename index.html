@@ -12,7 +12,7 @@
       <ul>
         <li>
           <span class="logo"> Fadhil</span>
-          <button onclick=toggleSidebar() id="toggle-btn">
+          <button onclick="toggleSidebar()" id="toggle-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -26,8 +26,8 @@
             </svg>
           </button>
         </li>
-        <li class="active">
-          <a href="index.html">
+        <li>
+          <a href="#home">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -43,7 +43,7 @@
           </a>
         </li>
         <li>
-          <a href="about-me.html">
+          <a href="#about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -59,7 +59,7 @@
           </a>
         </li>
         <li>
-          <button onclick=togglesubMenu(this) class="dropdown-btn">
+          <button onclick="togglesubMenu(this)" class="dropdown-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -84,14 +84,13 @@
           </button>
           <ul class="sub-menu">
             <div>
-              <li><a href="project1.html">nama projek</a></li>
-              <li><a href="#project-2">nama projek</a></li>
-              <li><a href="#project-3">nama projek</a></li>
+              <li><a href="project1.html">Web Kelas</a></li>
+              <li><a href="project2.html">Jam Digital</a></li>
             </div>
           </ul>
         </li>
         <li>
-          <a href="certificate.html">
+          <a href="#sertifikat">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -106,48 +105,207 @@
             <span>Certificate</span>
           </a>
         </li>
+        <li>
+          <a href="#contact">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"
+              />
+            </svg>
+            <span>Contact</span>
+          </a>
+        </li>
       </ul>
     </nav>
     <main>
-      <div class="container">
-        <h2>test</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
-          perferendis?
-        </p>
-      </div>
-      <div class="container">
-        <h2>yoo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </div>
-      <div class="container">
-        <h2>hi</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-          placeat, ipsum sunt eum dignissimos maiores nesciunt eaque repudiandae
-          laudantium sed consectetur earum suscipit, nulla inventore itaque
-          pariatur corrupti dolores laboriosam ad cumque? Asperiores
-          perspiciatis laborum quas cum optio numquam tenetur atque deleniti
-          eius suscipit, est consectetur quaerat facere. Minus laboriosam
-          voluptate quae. Aspernatur est nulla eos consequatur ea fugit
-          dignissimos harum odio corporis iusto labore quis vel, delectus rem
-          soluta, placeat, totam sapiente. Nostrum repellat, at ea sed incidunt
-          illo fugiat dolorem, excepturi officia nemo in error ipsam voluptas
-          quas sequi ex omnis voluptatibus libero enim perferendis est? Velit
-          soluta totam ullam cum quod rerum id tenetur alias non harum,
-          architecto, fugit porro at repellat dicta omnis molestiae quos
-          nesciunt tempore! Molestias voluptatem aliquam consequatur, animi odit
-          reiciendis delectus quaerat esse dicta, fugiat, sed soluta dolor nobis
-          quisquam. Quae iste, reiciendis et sapiente voluptates officiis
-          aperiam animi exercitationem iusto, optio itaque. Debitis amet earum
-          dolore magnam! Fugiat laborum voluptate odio ullam odit blanditiis
-          explicabo accusamus, nihil quis quae nemo. Adipisci delectus vitae,
-          incidunt magnam cumque consequuntur molestias voluptatem natus, saepe
-          omnis dolore. Sed consequatur molestiae dolorem, nihil sequi eveniet
-          totam amet, accusantium ullam illo fuga dolores, tempore reprehenderit
-          qui voluptatum?
-        </p>
-      </div>
+      <section id="home">
+        <div class="container-profile">
+          <img
+            src="assets/img/IMG_20250711_190937_625.webp"
+            alt=""
+            class="profile"
+          />
+          <div class="text-profile">
+            <h1>Hi, Im Fadhil Dafiamsyah</h1>
+            <p class="type-writter">
+              Tech Enthusiast | Aspiring Programmer | Student at SMK Plus Pelita
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <h2>Siapa saya?</h2>
+          <p>
+            Saya adalah seorang calon programmer handal yang bersekolah di SMK
+            Plus Pelita Nusantara yang mengambil jurusan RPL
+          </p>
+
+          <h2>Minat Dan Hobi</h2>
+          <p>
+            Minat saya adalah di bidang teknologi, terutama dalam pengembangan
+            perangkat lunak dan keamanan siber. Saya juga memiliki hobi dalam
+            bermain game, membaca buku tentang teknologi, dan mengikuti
+            perkembangan terbaru di dunia IT.
+          </p>
+
+          <h2>Keahlian Saya</h2>
+          <h3>Hard skill</h3>
+          <ul>
+            <li>Bahasa Pemrograman: Python, PHP, JavaScript</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Database Management: MySQL</li>
+            <li>Version Control: Git</li>
+          </ul>
+
+          <h3>Soft Skill</h3>
+          <ul>
+            <li>
+              Problem Solving: Kemampuan untuk menganalisis masalah dan
+              menemukan solusi yang efektif.
+            </li>
+            <li>
+              Teamwork: Mampu bekerja sama dengan baik dalam tim untuk mencapai
+              tujuan bersama.
+            </li>
+            <li>
+              Communication: Kemampuan untuk menyampaikan ide dan informasi
+              dengan jelas dan efektif.
+            </li>
+            <li>
+              Adaptability: Mampu beradaptasi dengan cepat terhadap perubahan
+              dan tantangan baru.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- setip -->
+      <section id="sertifikat">
+        <div class="container">
+          <h3>Sertifikat Saya</h3>
+          <div class="sertip-container">
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Certificate_AI Skill Fest_ Bangun Chatbot Buatanmu Sendiri dengan Microsoft Azure!_Fadhil Dafiamsyah_page-0001.jpg"
+                alt="Sertifikat 1"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Fadhil Dafiamsyah  - Sertifikat Peserta “Pemanfaatan Cloud Computing di Sektor Pendidikan”_page-0001.jpg"
+                alt="Sertifikat 2"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Fadhil Dafiamsyah _Certificate_page-0001.jpg"
+                alt="Sertifikat 3"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Fadhil Dafiamsyah Sertifikat Webinar Introduction to Capture the Flag_page-0001.jpg"
+                alt="Sertifikat 4"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Fadhil Dafiamsyah-1_page-0001.jpg"
+                alt="Sertifikat 5"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Fadhil Dafiamsyah-2_page-0001.jpg"
+                alt="Sertifikat 6"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/Fadhil Dafiamsyah_page-0001.jpg"
+                alt="Sertifikat 7"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/fadhil-dafiamsyah_pages-to-jpg-0001.jpg"
+                alt="Sertifikat 8"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/WhatsApp Image 2025-11-21 at 09.31.43_b5b9c0ea.jpg"
+                alt="Sertifikat 9"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+            <div class="sertip">
+              <img
+                src="assets/Sertifikat/sertifikat_course_902_5664131_260226132202_page-0001.jpg"
+                alt="Sertifikat 10"
+              />
+              <p>Nama Sertifikat</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- kontak -->
+      <section id="contact">
+        <div class="container contact-card">
+          <h2>Contact Me</h2>
+          <p>
+            Ayo ngobrol tentang proyek, kolaborasi, atau ide teknologi. Hubungi
+            saya lewat media berikut.
+          </p>
+          <div class="contact-grid">
+            <article class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:fadildafiamsyah@gmail.com"
+                  >fadildafiamsyah@gmail.com</a
+                >
+              </div>
+            </article>
+            <article class="contact-item">
+              <span class="contact-icon">📱</span>
+              <div>
+                <h3>Phone</h3>
+                <a href="tel:+6285218444747">+62 852-184-447-47</a>
+              </div>
+            </article>
+            <article class="contact-item">
+              <span class="contact-icon">🐱</span>
+              <div>
+                <h3>GitHub</h3>
+                <a
+                  href="https://github.com/fi-suffix"
+                  target="_blank"
+                  rel="noreferrer"
+                  >github.com/fi-suffix</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
